@@ -1,0 +1,371 @@
+
+ we are setting up website from tooplate.com
+STEP 1 -------------------------------------------Installing dependencies 
+Hit:1 http://us.archive.ubuntu.com/ubuntu bionic InRelease
+Hit:2 http://dl.google.com/linux/chrome/deb stable InRelease
+Get:3 http://us.archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+Get:4 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+Get:5 http://us.archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+Fetched 252 kB in 1s (216 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+45 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+unzip is already the newest version (6.0-21ubuntu1).
+apache2 is already the newest version (2.4.29-1ubuntu4.13).
+wget is already the newest version (1.19.4-1ubuntu2.2).
+The following packages were automatically installed and are no longer required:
+  gir1.2-geocodeglib-1.0 libfwup1 libllvm7 ubuntu-web-launchers
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 45 not upgraded.
+ STEP 2 ---------------------------------------------Start and ENable Svc 
+svr is 'apache2' apache
+ STEP 3 ----------------------------------------download and extract artifact
+url is 'https://www.tooplate.com/zip-templates/2114_pixie.zip' url is 
+Archive:  2114_pixie.zip
+   creating: 2114_pixie/
+  inflating: 2114_pixie/about.html   
+   creating: 2114_pixie/assets/
+   creating: 2114_pixie/assets/css/
+  inflating: 2114_pixie/assets/css/flex-slider.css  
+  inflating: 2114_pixie/assets/css/fontawesome.css  
+  inflating: 2114_pixie/assets/css/owl.css  
+  inflating: 2114_pixie/assets/css/tooplate-main.css  
+   creating: 2114_pixie/assets/fonts/
+  inflating: 2114_pixie/assets/fonts/Flaticon.woff  
+  inflating: 2114_pixie/assets/fonts/flexslider-icon.eot  
+  inflating: 2114_pixie/assets/fonts/flexslider-icon.svg  
+  inflating: 2114_pixie/assets/fonts/flexslider-icon.ttf  
+  inflating: 2114_pixie/assets/fonts/flexslider-icon.woff  
+  inflating: 2114_pixie/assets/fonts/fontawesome-webfont.eot  
+  inflating: 2114_pixie/assets/fonts/fontawesome-webfont.svg  
+  inflating: 2114_pixie/assets/fonts/fontawesome-webfont.ttf  
+  inflating: 2114_pixie/assets/fonts/fontawesome-webfont.woff  
+  inflating: 2114_pixie/assets/fonts/fontawesome-webfont.woff2  
+  inflating: 2114_pixie/assets/fonts/FontAwesome.otf  
+  inflating: 2114_pixie/assets/fonts/slick.eot  
+  inflating: 2114_pixie/assets/fonts/slick.svg  
+  inflating: 2114_pixie/assets/fonts/slick.ttf  
+  inflating: 2114_pixie/assets/fonts/slick.woff  
+   creating: 2114_pixie/assets/images/
+  inflating: 2114_pixie/assets/images/about-us.jpg  
+  inflating: 2114_pixie/assets/images/banner-bg.jpg  
+  inflating: 2114_pixie/assets/images/big-01.jpg  
+  inflating: 2114_pixie/assets/images/big-02.jpg  
+  inflating: 2114_pixie/assets/images/big-03.jpg  
+  inflating: 2114_pixie/assets/images/big-04.jpg  
+  inflating: 2114_pixie/assets/images/header-logo.png  
+  inflating: 2114_pixie/assets/images/item-01.jpg  
+  inflating: 2114_pixie/assets/images/item-02.jpg  
+  inflating: 2114_pixie/assets/images/item-03.jpg  
+  inflating: 2114_pixie/assets/images/item-04.jpg  
+  inflating: 2114_pixie/assets/images/item-05.jpg  
+  inflating: 2114_pixie/assets/images/item-06.jpg  
+  inflating: 2114_pixie/assets/images/product-01.jpg  
+  inflating: 2114_pixie/assets/images/product-02.jpg  
+  inflating: 2114_pixie/assets/images/product-03.jpg  
+  inflating: 2114_pixie/assets/images/product-04.jpg  
+  inflating: 2114_pixie/assets/images/product-05.jpg  
+  inflating: 2114_pixie/assets/images/product-06.jpg  
+  inflating: 2114_pixie/assets/images/thumb-01.jpg  
+  inflating: 2114_pixie/assets/images/thumb-02.jpg  
+  inflating: 2114_pixie/assets/images/thumb-03.jpg  
+  inflating: 2114_pixie/assets/images/thumb-04.jpg  
+   creating: 2114_pixie/assets/js/
+  inflating: 2114_pixie/assets/js/custom.js  
+  inflating: 2114_pixie/assets/js/flex-slider.js  
+  inflating: 2114_pixie/assets/js/isotope.js  
+  inflating: 2114_pixie/assets/js/owl.js  
+  inflating: 2114_pixie/contact.html  
+  inflating: 2114_pixie/index.html   
+  inflating: 2114_pixie/products.html  
+  inflating: 2114_pixie/single-product.html  
+   creating: 2114_pixie/vendor/
+   creating: 2114_pixie/vendor/bootstrap/
+   creating: 2114_pixie/vendor/bootstrap/css/
+  inflating: 2114_pixie/vendor/bootstrap/css/bootstrap.css  
+  inflating: 2114_pixie/vendor/bootstrap/css/bootstrap.css.map  
+  inflating: 2114_pixie/vendor/bootstrap/css/bootstrap.min.css  
+  inflating: 2114_pixie/vendor/bootstrap/css/bootstrap.min.css.map  
+   creating: 2114_pixie/vendor/bootstrap/js/
+  inflating: 2114_pixie/vendor/bootstrap/js/bootstrap.bundle.js  
+  inflating: 2114_pixie/vendor/bootstrap/js/bootstrap.bundle.js.map  
+  inflating: 2114_pixie/vendor/bootstrap/js/bootstrap.bundle.min.js  
+  inflating: 2114_pixie/vendor/bootstrap/js/bootstrap.bundle.min.js.map  
+  inflating: 2114_pixie/vendor/bootstrap/js/bootstrap.js  
+  inflating: 2114_pixie/vendor/bootstrap/js/bootstrap.js.map  
+  inflating: 2114_pixie/vendor/bootstrap/js/bootstrap.min.js  
+  inflating: 2114_pixie/vendor/bootstrap/js/bootstrap.min.js.map  
+   creating: 2114_pixie/vendor/jquery/
+  inflating: 2114_pixie/vendor/jquery/jquery.js  
+  inflating: 2114_pixie/vendor/jquery/jquery.min.js  
+  inflating: 2114_pixie/vendor/jquery/jquery.min.map  
+  inflating: 2114_pixie/vendor/jquery/jquery.slim.js  
+  inflating: 2114_pixie/vendor/jquery/jquery.slim.min.js  
+  inflating: 2114_pixie/vendor/jquery/jquery.slim.min.map  
+  inflating: 2114_pixie/ABOUT THIS TEMPLATE.txt  
+ STEP 4 ----------------------------------------- Restart SVR 
+● apache2.service
+   Loaded: masked (/dev/null; bad)
+   Active: inactive (dead)
+
+Aug 08 12:18:02 eday2 systemd[1]: Starting The Apache HTTP Server...
+Aug 08 12:18:03 eday2 apachectl[830]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Aug 08 12:18:03 eday2 systemd[1]: Started The Apache HTTP Server.
+Aug 08 12:23:01 eday2 systemd[1]: Reloading The Apache HTTP Server.
+Aug 08 12:23:01 eday2 apachectl[4859]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Aug 08 12:23:01 eday2 systemd[1]: Reloaded The Apache HTTP Server.
+Aug 08 12:55:02 eday2 systemd[1]: Stopping The Apache HTTP Server...
+Aug 08 12:55:02 eday2 apachectl[5267]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Aug 08 12:55:02 eday2 systemd[1]: Stopped The Apache HTTP Server.
+ we are setting up website from tooplate.com
+STEP 1 -------------------------------------------Installing dependencies 
+Hit:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Get:2 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+Hit:3 http://us.archive.ubuntu.com/ubuntu bionic InRelease
+Get:4 http://us.archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+Get:5 http://us.archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+Fetched 252 kB in 1s (219 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+unzip is already the newest version (6.0-21ubuntu1).
+apache2 is already the newest version (2.4.29-1ubuntu4.13).
+wget is already the newest version (1.19.4-1ubuntu2.2).
+The following packages were automatically installed and are no longer required:
+  gir1.2-geocodeglib-1.0 libfwup1 libllvm7 ubuntu-web-launchers
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 45 not upgraded.
+ STEP 2 ---------------------------------------------Start and ENable Svc 
+svr is 'apache2' apache
+ STEP 3 ----------------------------------------download and extract artifact
+url is 'https://www.tooplate.com/zip-templates/2114_pixie.zip' url is 
+Archive:  2114_pixie.zip
+   creating: 2114_pixie/
+  inflating: 2114_pixie/about.html   
+   creating: 2114_pixie/assets/
+   creating: 2114_pixie/assets/css/
+  inflating: 2114_pixie/assets/css/flex-slider.css  
+  inflating: 2114_pixie/assets/css/fontawesome.css  
+  inflating: 2114_pixie/assets/css/owl.css  
+  inflating: 2114_pixie/assets/css/tooplate-main.css  
+   creating: 2114_pixie/assets/fonts/
+  inflating: 2114_pixie/assets/fonts/Flaticon.woff  
+  inflating: 2114_pixie/assets/fonts/flexslider-icon.eot  
+  inflating: 2114_pixie/assets/fonts/flexslider-icon.svg  
+  inflating: 2114_pixie/assets/fonts/flexslider-icon.ttf  
+  inflating: 2114_pixie/assets/fonts/flexslider-icon.woff  
+  inflating: 2114_pixie/assets/fonts/fontawesome-webfont.eot  
+  inflating: 2114_pixie/assets/fonts/fontawesome-webfont.svg  
+  inflating: 2114_pixie/assets/fonts/fontawesome-webfont.ttf  
+  inflating: 2114_pixie/assets/fonts/fontawesome-webfont.woff  
+  inflating: 2114_pixie/assets/fonts/fontawesome-webfont.woff2  
+  inflating: 2114_pixie/assets/fonts/FontAwesome.otf  
+  inflating: 2114_pixie/assets/fonts/slick.eot  
+  inflating: 2114_pixie/assets/fonts/slick.svg  
+  inflating: 2114_pixie/assets/fonts/slick.ttf  
+  inflating: 2114_pixie/assets/fonts/slick.woff  
+   creating: 2114_pixie/assets/images/
+  inflating: 2114_pixie/assets/images/about-us.jpg  
+  inflating: 2114_pixie/assets/images/banner-bg.jpg  
+  inflating: 2114_pixie/assets/images/big-01.jpg  
+  inflating: 2114_pixie/assets/images/big-02.jpg  
+  inflating: 2114_pixie/assets/images/big-03.jpg  
+  inflating: 2114_pixie/assets/images/big-04.jpg  
+  inflating: 2114_pixie/assets/images/header-logo.png  
+  inflating: 2114_pixie/assets/images/item-01.jpg  
+  inflating: 2114_pixie/assets/images/item-02.jpg  
+  inflating: 2114_pixie/assets/images/item-03.jpg  
+  inflating: 2114_pixie/assets/images/item-04.jpg  
+  inflating: 2114_pixie/assets/images/item-05.jpg  
+  inflating: 2114_pixie/assets/images/item-06.jpg  
+  inflating: 2114_pixie/assets/images/product-01.jpg  
+  inflating: 2114_pixie/assets/images/product-02.jpg  
+  inflating: 2114_pixie/assets/images/product-03.jpg  
+  inflating: 2114_pixie/assets/images/product-04.jpg  
+  inflating: 2114_pixie/assets/images/product-05.jpg  
+  inflating: 2114_pixie/assets/images/product-06.jpg  
+  inflating: 2114_pixie/assets/images/thumb-01.jpg  
+  inflating: 2114_pixie/assets/images/thumb-02.jpg  
+  inflating: 2114_pixie/assets/images/thumb-03.jpg  
+  inflating: 2114_pixie/assets/images/thumb-04.jpg  
+   creating: 2114_pixie/assets/js/
+  inflating: 2114_pixie/assets/js/custom.js  
+  inflating: 2114_pixie/assets/js/flex-slider.js  
+  inflating: 2114_pixie/assets/js/isotope.js  
+  inflating: 2114_pixie/assets/js/owl.js  
+  inflating: 2114_pixie/contact.html  
+  inflating: 2114_pixie/index.html   
+  inflating: 2114_pixie/products.html  
+  inflating: 2114_pixie/single-product.html  
+   creating: 2114_pixie/vendor/
+   creating: 2114_pixie/vendor/bootstrap/
+   creating: 2114_pixie/vendor/bootstrap/css/
+  inflating: 2114_pixie/vendor/bootstrap/css/bootstrap.css  
+  inflating: 2114_pixie/vendor/bootstrap/css/bootstrap.css.map  
+  inflating: 2114_pixie/vendor/bootstrap/css/bootstrap.min.css  
+  inflating: 2114_pixie/vendor/bootstrap/css/bootstrap.min.css.map  
+   creating: 2114_pixie/vendor/bootstrap/js/
+  inflating: 2114_pixie/vendor/bootstrap/js/bootstrap.bundle.js  
+  inflating: 2114_pixie/vendor/bootstrap/js/bootstrap.bundle.js.map  
+  inflating: 2114_pixie/vendor/bootstrap/js/bootstrap.bundle.min.js  
+  inflating: 2114_pixie/vendor/bootstrap/js/bootstrap.bundle.min.js.map  
+  inflating: 2114_pixie/vendor/bootstrap/js/bootstrap.js  
+  inflating: 2114_pixie/vendor/bootstrap/js/bootstrap.js.map  
+  inflating: 2114_pixie/vendor/bootstrap/js/bootstrap.min.js  
+  inflating: 2114_pixie/vendor/bootstrap/js/bootstrap.min.js.map  
+   creating: 2114_pixie/vendor/jquery/
+  inflating: 2114_pixie/vendor/jquery/jquery.js  
+  inflating: 2114_pixie/vendor/jquery/jquery.min.js  
+  inflating: 2114_pixie/vendor/jquery/jquery.min.map  
+  inflating: 2114_pixie/vendor/jquery/jquery.slim.js  
+  inflating: 2114_pixie/vendor/jquery/jquery.slim.min.js  
+  inflating: 2114_pixie/vendor/jquery/jquery.slim.min.map  
+  inflating: 2114_pixie/ABOUT THIS TEMPLATE.txt  
+ STEP 4 ----------------------------------------- Restart SVR 
+● apache2.service - The Apache HTTP Server
+   Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+  Drop-In: /lib/systemd/system/apache2.service.d
+           └─apache2-systemd.conf
+   Active: active (running) since Sat 2020-08-08 16:51:34 CDT; 53ms ago
+  Process: 9287 ExecStop=/usr/sbin/apachectl stop (code=exited, status=0/SUCCESS)
+  Process: 9292 ExecStart=/usr/sbin/apachectl start (code=exited, status=0/SUCCESS)
+ Main PID: 9308 (apache2)
+    Tasks: 55 (limit: 4915)
+   CGroup: /system.slice/apache2.service
+           ├─9308 /usr/sbin/apache2 -k start
+           ├─9312 /usr/sbin/apache2 -k start
+           └─9313 /usr/sbin/apache2 -k start
+
+Aug 08 16:51:34 eday2 systemd[1]: Stopped The Apache HTTP Server.
+Aug 08 16:51:34 eday2 systemd[1]: Starting The Apache HTTP Server...
+Aug 08 16:51:34 eday2 apachectl[9292]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Aug 08 16:51:34 eday2 systemd[1]: Started The Apache HTTP Server.
+ we are setting up website from tooplate.com
+STEP 1 -------------------------------------------Installing dependencies 
+Hit:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Get:2 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+Hit:3 http://us.archive.ubuntu.com/ubuntu bionic InRelease
+Get:4 http://us.archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+Get:5 http://us.archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+Fetched 252 kB in 1s (234 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+unzip is already the newest version (6.0-21ubuntu1).
+apache2 is already the newest version (2.4.29-1ubuntu4.13).
+wget is already the newest version (1.19.4-1ubuntu2.2).
+The following packages were automatically installed and are no longer required:
+  gir1.2-geocodeglib-1.0 libfwup1 libllvm7 ubuntu-web-launchers
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 45 not upgraded.
+ STEP 2 ---------------------------------------------Start and ENable Svc 
+svr is 'apache2' apache
+ STEP 3 ----------------------------------------download and extract artifact
+url is 'https://www.tooplate.com/zip-templates/2114_pixie.zip' url is 
+Archive:  2114_pixie.zip
+   creating: 2114_pixie/
+  inflating: 2114_pixie/about.html   
+   creating: 2114_pixie/assets/
+   creating: 2114_pixie/assets/css/
+  inflating: 2114_pixie/assets/css/flex-slider.css  
+  inflating: 2114_pixie/assets/css/fontawesome.css  
+  inflating: 2114_pixie/assets/css/owl.css  
+  inflating: 2114_pixie/assets/css/tooplate-main.css  
+   creating: 2114_pixie/assets/fonts/
+  inflating: 2114_pixie/assets/fonts/Flaticon.woff  
+  inflating: 2114_pixie/assets/fonts/flexslider-icon.eot  
+  inflating: 2114_pixie/assets/fonts/flexslider-icon.svg  
+  inflating: 2114_pixie/assets/fonts/flexslider-icon.ttf  
+  inflating: 2114_pixie/assets/fonts/flexslider-icon.woff  
+  inflating: 2114_pixie/assets/fonts/fontawesome-webfont.eot  
+  inflating: 2114_pixie/assets/fonts/fontawesome-webfont.svg  
+  inflating: 2114_pixie/assets/fonts/fontawesome-webfont.ttf  
+  inflating: 2114_pixie/assets/fonts/fontawesome-webfont.woff  
+  inflating: 2114_pixie/assets/fonts/fontawesome-webfont.woff2  
+  inflating: 2114_pixie/assets/fonts/FontAwesome.otf  
+  inflating: 2114_pixie/assets/fonts/slick.eot  
+  inflating: 2114_pixie/assets/fonts/slick.svg  
+  inflating: 2114_pixie/assets/fonts/slick.ttf  
+  inflating: 2114_pixie/assets/fonts/slick.woff  
+   creating: 2114_pixie/assets/images/
+  inflating: 2114_pixie/assets/images/about-us.jpg  
+  inflating: 2114_pixie/assets/images/banner-bg.jpg  
+  inflating: 2114_pixie/assets/images/big-01.jpg  
+  inflating: 2114_pixie/assets/images/big-02.jpg  
+  inflating: 2114_pixie/assets/images/big-03.jpg  
+  inflating: 2114_pixie/assets/images/big-04.jpg  
+  inflating: 2114_pixie/assets/images/header-logo.png  
+  inflating: 2114_pixie/assets/images/item-01.jpg  
+  inflating: 2114_pixie/assets/images/item-02.jpg  
+  inflating: 2114_pixie/assets/images/item-03.jpg  
+  inflating: 2114_pixie/assets/images/item-04.jpg  
+  inflating: 2114_pixie/assets/images/item-05.jpg  
+  inflating: 2114_pixie/assets/images/item-06.jpg  
+  inflating: 2114_pixie/assets/images/product-01.jpg  
+  inflating: 2114_pixie/assets/images/product-02.jpg  
+  inflating: 2114_pixie/assets/images/product-03.jpg  
+  inflating: 2114_pixie/assets/images/product-04.jpg  
+  inflating: 2114_pixie/assets/images/product-05.jpg  
+  inflating: 2114_pixie/assets/images/product-06.jpg  
+  inflating: 2114_pixie/assets/images/thumb-01.jpg  
+  inflating: 2114_pixie/assets/images/thumb-02.jpg  
+  inflating: 2114_pixie/assets/images/thumb-03.jpg  
+  inflating: 2114_pixie/assets/images/thumb-04.jpg  
+   creating: 2114_pixie/assets/js/
+  inflating: 2114_pixie/assets/js/custom.js  
+  inflating: 2114_pixie/assets/js/flex-slider.js  
+  inflating: 2114_pixie/assets/js/isotope.js  
+  inflating: 2114_pixie/assets/js/owl.js  
+  inflating: 2114_pixie/contact.html  
+  inflating: 2114_pixie/index.html   
+  inflating: 2114_pixie/products.html  
+  inflating: 2114_pixie/single-product.html  
+   creating: 2114_pixie/vendor/
+   creating: 2114_pixie/vendor/bootstrap/
+   creating: 2114_pixie/vendor/bootstrap/css/
+  inflating: 2114_pixie/vendor/bootstrap/css/bootstrap.css  
+  inflating: 2114_pixie/vendor/bootstrap/css/bootstrap.css.map  
+  inflating: 2114_pixie/vendor/bootstrap/css/bootstrap.min.css  
+  inflating: 2114_pixie/vendor/bootstrap/css/bootstrap.min.css.map  
+   creating: 2114_pixie/vendor/bootstrap/js/
+  inflating: 2114_pixie/vendor/bootstrap/js/bootstrap.bundle.js  
+  inflating: 2114_pixie/vendor/bootstrap/js/bootstrap.bundle.js.map  
+  inflating: 2114_pixie/vendor/bootstrap/js/bootstrap.bundle.min.js  
+  inflating: 2114_pixie/vendor/bootstrap/js/bootstrap.bundle.min.js.map  
+  inflating: 2114_pixie/vendor/bootstrap/js/bootstrap.js  
+  inflating: 2114_pixie/vendor/bootstrap/js/bootstrap.js.map  
+  inflating: 2114_pixie/vendor/bootstrap/js/bootstrap.min.js  
+  inflating: 2114_pixie/vendor/bootstrap/js/bootstrap.min.js.map  
+   creating: 2114_pixie/vendor/jquery/
+  inflating: 2114_pixie/vendor/jquery/jquery.js  
+  inflating: 2114_pixie/vendor/jquery/jquery.min.js  
+  inflating: 2114_pixie/vendor/jquery/jquery.min.map  
+  inflating: 2114_pixie/vendor/jquery/jquery.slim.js  
+  inflating: 2114_pixie/vendor/jquery/jquery.slim.min.js  
+  inflating: 2114_pixie/vendor/jquery/jquery.slim.min.map  
+  inflating: 2114_pixie/ABOUT THIS TEMPLATE.txt  
+ STEP 4 ----------------------------------------- Restart SVR 
+● apache2.service - The Apache HTTP Server
+   Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+  Drop-In: /lib/systemd/system/apache2.service.d
+           └─apache2-systemd.conf
+   Active: active (running) since Sat 2020-08-08 17:06:51 CDT; 58ms ago
+  Process: 9916 ExecStop=/usr/sbin/apachectl stop (code=exited, status=0/SUCCESS)
+  Process: 9921 ExecStart=/usr/sbin/apachectl start (code=exited, status=0/SUCCESS)
+ Main PID: 9935 (apache2)
+    Tasks: 55 (limit: 4915)
+   CGroup: /system.slice/apache2.service
+           ├─9935 /usr/sbin/apache2 -k start
+           ├─9940 /usr/sbin/apache2 -k start
+           └─9941 /usr/sbin/apache2 -k start
+
+Aug 08 17:06:51 eday2 systemd[1]: Stopped The Apache HTTP Server.
+Aug 08 17:06:51 eday2 systemd[1]: Starting The Apache HTTP Server...
+Aug 08 17:06:51 eday2 apachectl[9921]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Aug 08 17:06:51 eday2 systemd[1]: Started The Apache HTTP Server.
