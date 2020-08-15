@@ -14,6 +14,8 @@ echo
 
 echo " SYSTEM UPTIME"
 uptime
-echo
+echo " NEW LINE ADDED AFTER UPTIME"
 
 echo " EXECUTION COMPLETED"
+echo "NeW LINE ADDED"
+
